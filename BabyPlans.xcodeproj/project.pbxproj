@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		184BCA771CB362E5008314F4 /* CloudLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 184BCA761CB362E5008314F4 /* CloudLogin.m */; };
+		186195BB1CB347080003A562 /* PlazaTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186195BA1CB347080003A562 /* PlazaTableController.m */; };
+		186195C81CB357B60003A562 /* PlazaMainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 186195C71CB357B60003A562 /* PlazaMainCell.m */; };
+		186195CC1CB35BB00003A562 /* UserTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186195CB1CB35BB00003A562 /* UserTableController.m */; };
 		18F114AB1CAE36F600F53C42 /* FWBTarBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F114A61CAE36F600F53C42 /* FWBTarBarButton.m */; };
 		18F114AC1CAE36F600F53C42 /* MyTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F114A81CAE36F600F53C42 /* MyTabBar.m */; };
 		18F114AD1CAE36F600F53C42 /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F114AA1CAE36F600F53C42 /* RootTabBarController.m */; };
@@ -28,6 +32,7 @@
 		18FD4B3D1CAE34DD00ACD4BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FD4B3C1CAE34DD00ACD4BC /* Assets.xcassets */; };
 		18FD4B4B1CAE34DD00ACD4BC /* BabyPlansTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FD4B4A1CAE34DD00ACD4BC /* BabyPlansTests.m */; };
 		18FD4B561CAE34DD00ACD4BC /* BabyPlansUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FD4B551CAE34DD00ACD4BC /* BabyPlansUITests.m */; };
+		B317B4D9BEC908EB6DC446BC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E09338FE85BB969CD7D58012 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		184BCA751CB362E5008314F4 /* CloudLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudLogin.h; sourceTree = "<group>"; };
+		184BCA761CB362E5008314F4 /* CloudLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudLogin.m; sourceTree = "<group>"; };
+		186195B91CB347080003A562 /* PlazaTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlazaTableController.h; sourceTree = "<group>"; };
+		186195BA1CB347080003A562 /* PlazaTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlazaTableController.m; sourceTree = "<group>"; };
+		186195C61CB357B60003A562 /* PlazaMainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlazaMainCell.h; sourceTree = "<group>"; };
+		186195C71CB357B60003A562 /* PlazaMainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlazaMainCell.m; sourceTree = "<group>"; };
+		186195CA1CB35BB00003A562 /* UserTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTableController.h; sourceTree = "<group>"; };
+		186195CB1CB35BB00003A562 /* UserTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTableController.m; sourceTree = "<group>"; };
 		18F114A51CAE36F600F53C42 /* FWBTarBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWBTarBarButton.h; sourceTree = "<group>"; };
 		18F114A61CAE36F600F53C42 /* FWBTarBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWBTarBarButton.m; sourceTree = "<group>"; };
 		18F114A71CAE36F600F53C42 /* MyTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBar.h; sourceTree = "<group>"; };
@@ -83,6 +96,9 @@
 		18FD4B511CAE34DD00ACD4BC /* BabyPlansUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyPlansUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FD4B551CAE34DD00ACD4BC /* BabyPlansUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BabyPlansUITests.m; sourceTree = "<group>"; };
 		18FD4B571CAE34DD00ACD4BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32FFFF55A949A5F1276D6E5A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8B327CE365CF29808C695EDB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E09338FE85BB969CD7D58012 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B317B4D9BEC908EB6DC446BC /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +127,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A66F87F4B7DF4561EB0B5FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32FFFF55A949A5F1276D6E5A /* Pods.debug.xcconfig */,
+				8B327CE365CF29808C695EDB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		184BCA741CB362D0008314F4 /* Interface(接口) */ = {
+			isa = PBXGroup;
+			children = (
+				184BCA751CB362E5008314F4 /* CloudLogin.h */,
+				184BCA761CB362E5008314F4 /* CloudLogin.m */,
+			);
+			path = "Interface(接口)";
+			sourceTree = "<group>";
+		};
+		186195B81CB346E30003A562 /* Plaza(广场) */ = {
+			isa = PBXGroup;
+			children = (
+				186195C51CB3578A0003A562 /* Model */,
+				186195C41CB357820003A562 /* View */,
+				186195C31CB357790003A562 /* Controller */,
+			);
+			path = "Plaza(广场)";
+			sourceTree = "<group>";
+		};
+		186195C31CB357790003A562 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				186195B91CB347080003A562 /* PlazaTableController.h */,
+				186195BA1CB347080003A562 /* PlazaTableController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		186195C41CB357820003A562 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				186195C61CB357B60003A562 /* PlazaMainCell.h */,
+				186195C71CB357B60003A562 /* PlazaMainCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		186195C51CB3578A0003A562 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		186195C91CB35B960003A562 /* UserMess(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				186195CA1CB35BB00003A562 /* UserTableController.h */,
+				186195CB1CB35BB00003A562 /* UserTableController.m */,
+			);
+			path = "UserMess(我的)";
+			sourceTree = "<group>";
+		};
 		18F114A41CAE36F600F53C42 /* MainController */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +265,8 @@
 				18FD4B491CAE34DD00ACD4BC /* BabyPlansTests */,
 				18FD4B541CAE34DD00ACD4BC /* BabyPlansUITests */,
 				18FD4B2E1CAE34DD00ACD4BC /* Products */,
+				0A66F87F4B7DF4561EB0B5FC /* Pods */,
+				3B4B6B80B72A80675EB35A2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -205,6 +286,9 @@
 				18F114C81CAE37CC00F53C42 /* AppDelegate */,
 				18F114C11CAE378600F53C42 /* GlobalMethod */,
 				18F114A41CAE36F600F53C42 /* MainController */,
+				184BCA741CB362D0008314F4 /* Interface(接口) */,
+				186195B81CB346E30003A562 /* Plaza(广场) */,
+				186195C91CB35B960003A562 /* UserMess(我的) */,
 				18FD4B301CAE34DD00ACD4BC /* Supporting Files */,
 			);
 			path = BabyPlans;
@@ -240,6 +324,14 @@
 			path = BabyPlansUITests;
 			sourceTree = "<group>";
 		};
+		3B4B6B80B72A80675EB35A2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E09338FE85BB969CD7D58012 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -247,9 +339,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18FD4B5A1CAE34DD00ACD4BC /* Build configuration list for PBXNativeTarget "BabyPlans" */;
 			buildPhases = (
+				97D1D26D1769CF4505911EA3 /* Check Pods Manifest.lock */,
 				18FD4B291CAE34DD00ACD4BC /* Sources */,
 				18FD4B2A1CAE34DD00ACD4BC /* Frameworks */,
 				18FD4B2B1CAE34DD00ACD4BC /* Resources */,
+				0DAB371AE5DA54273973F9A0 /* Embed Pods Frameworks */,
+				1782FAE427E3648DEAE88DD8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -374,6 +469,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DAB371AE5DA54273973F9A0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1782FAE427E3648DEAE88DD8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97D1D26D1769CF4505911EA3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18FD4B291CAE34DD00ACD4BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -382,10 +525,14 @@
 				18FD4B351CAE34DD00ACD4BC /* AppDelegate.m in Sources */,
 				18FD4B321CAE34DD00ACD4BC /* main.m in Sources */,
 				18F114AD1CAE36F600F53C42 /* RootTabBarController.m in Sources */,
+				186195C81CB357B60003A562 /* PlazaMainCell.m in Sources */,
 				18F114AC1CAE36F600F53C42 /* MyTabBar.m in Sources */,
+				186195BB1CB347080003A562 /* PlazaTableController.m in Sources */,
 				18F114C61CAE378600F53C42 /* PersonalMethod.m in Sources */,
+				184BCA771CB362E5008314F4 /* CloudLogin.m in Sources */,
 				18F114F11CAE647100F53C42 /* FWBNavgationController.m in Sources */,
 				18F114AB1CAE36F600F53C42 /* FWBTarBarButton.m in Sources */,
+				186195CC1CB35BB00003A562 /* UserTableController.m in Sources */,
 				18F114C71CAE378600F53C42 /* UIImage+Category.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,6 +667,7 @@
 		};
 		18FD4B5B1CAE34DD00ACD4BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32FFFF55A949A5F1276D6E5A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -534,6 +682,7 @@
 		};
 		18FD4B5C1CAE34DD00ACD4BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B327CE365CF29808C695EDB /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
